@@ -1,0 +1,29 @@
+{
+  "name": "Employee-Tracker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app-messy.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/1066JMay96/Employee-Tracker.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/1066JMay96/Employee-Tracker/issues"
+  },
+  "homepage": "https://github.com/1066JMay96/Employee-Tracker#readme",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "inquirer": "^7.0.5",
+    "mysql": "^2.18.1",
+    "node": "^13.9.0"
+  }
+}
