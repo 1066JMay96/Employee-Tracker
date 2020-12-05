@@ -8,7 +8,11 @@ VALUES
     ('Financial'),
     ('Human Resources');
 
+<<<<<<< HEAD
 INSERT INTO role
+=======
+INSERT INTO roles
+>>>>>>> 46974093fb65f2eddc6049c9ae85f6387b1fee07
   (title, salary, department_id)
 VALUES
   ('Mechanical Engineer',120000, 2),
