@@ -22,7 +22,7 @@ async function loadMainPrompts() {
       message: "What would you like to do?",
       choices: [
         {
-          name: "View All Employees",
+          name: "View Employees",
           value: "VIEW_EMPLOYEES"
         },
         {
@@ -82,6 +82,8 @@ async function loadMainPrompts() {
   ]);
 if (choice === "VIEW_EMPLOYEES"){
   return payroll();
+} else if (choice === "VIEW_EMPLOYEES_BY_DEPARTMENT"){
+ return findAllEmployeesByDepartment(id)
 }else if (choice === "VIEW_DEPARTMENT"){
  return payrollByDepartment()
 }else if (choice === "VIEW_EMPLOYEES_BY_MANAGER"){
